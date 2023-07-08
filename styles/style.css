@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+  color: #005fac;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 30px;
+  margin: 10px 0px;
+  border: 0;
+}
+/* header style start */
+.header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15% 10% 10% 50%;
+  align-items: end;
+  text-align: right;
+  color: #fff;
+}
+
+h1.banner-title {
+  color: #fff;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-description {
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 10px 0px;
+}
+
+/* about me section */
+
+.failure-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 130px;
+  margin-left: 10%;
+  gap: 5%;
+}
+
+.failure-info {
+  margin: 100px 200px 20px 50px;
+}
+
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.failure-description {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 10px 0px;
+}
+
+.failure-coz {
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* my plans styles */
+.my-plans-title {
+  text-align: center;
+}
+.my-plans-info {
+  display: flex;
+  justify-content: center;
+}
+.plans {
+  padding: 50px 50px;
+  text-align: center;
+}
