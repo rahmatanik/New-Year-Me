@@ -55,7 +55,7 @@ h1.banner-title {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 130px;
+  padding: 130px 0;
   margin-left: 10%;
   gap: 5%;
 }
@@ -96,4 +96,88 @@ h1.banner-title {
 .plans {
   padding: 50px 50px;
   text-align: center;
+}
+
+.mindset {
+  margin-top: 150px;
+  margin: 5% 20%;
+  background-image: url("../images/watch.png");
+  background-repeat: no-repeat;
+  padding: 80px;
+  border-radius: 5px;
+}
+.mindset-title {
+  color: #fff;
+
+  font-size: 40px;
+  font-weight: 700;
+}
+.btn-secondary {
+  color: #005fac;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #fff;
+  padding: 12px 25px;
+  margin: 10px 0px;
+  border: 0;
+}
+
+/* footer area start */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #151414;
+  padding: 80px 180px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.footer-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-right: 40%;
+  padding-top: 20px;
+}
+.footer-icon {
+  margin: 0px 5px;
+}
+.footer-title2 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.email {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.507);
+  margin: 30px 0px 0px 5px;
+}
+
+.btn-secondary-footer {
+  color: #ffffff;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 5px;
+  background: #005fac;
+  padding: 12px 25px;
+  margin: 10px 0px;
+  border: 0;
+  margin-left: 5px;
 }
